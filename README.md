@@ -4,6 +4,7 @@ Leveraging state-of-the-art machine learning algorithms, this project proposes a
 
 This repository organizes the code from the project in 2 main directories:
 
+``
 ├── Intent Prediction
 │   ├── baseline_model.ipynb
 │   └── gun_prediction_MobileNet+EfficientNet.ipynb
@@ -15,6 +16,7 @@ This repository organizes the code from the project in 2 main directories:
 │   ├── yolo_v8_best.pt
 │   └── yolov8-experiments
 └── README.md
+``
 
 Intent prediction contains all the code to prediction the future appereance of guns with a prior of 5 seconds. Weapon's detection contains multiple implementations of object detection pipelines including DarkVision, YOLO v8 and YOLO-Mamba. 
 
